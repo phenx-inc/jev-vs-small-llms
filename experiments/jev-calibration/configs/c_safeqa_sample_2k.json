@@ -1,0 +1,58 @@
+{
+  "protocol_id": "c-safeqa-external-eval-sample-v2",
+  "dataset": {
+    "repo_id": "SparkShieldLab/C-SafeQA",
+    "revision": "5de32382c9f736f882cd4d0f5cc10477ce6147f2",
+    "license": "CC-BY-NC-4.0",
+    "expected_total_rows": 37660,
+    "files": [
+      {
+        "split": "base",
+        "path": "data/base.jsonl",
+        "expected_rows": 2152
+      },
+      {
+        "split": "transformed_deepseek_v3_2",
+        "path": "data/transformed/deepseek-v3-2.jsonl",
+        "expected_rows": 8877
+      },
+      {
+        "split": "transformed_kimi_k2_5",
+        "path": "data/transformed/kimi-k2-5.jsonl",
+        "expected_rows": 8877
+      },
+      {
+        "split": "transformed_minimax_m2_5",
+        "path": "data/transformed/minimax-m2-5.jsonl",
+        "expected_rows": 8877
+      },
+      {
+        "split": "transformed_qwen3_5_397b_a17b",
+        "path": "data/transformed/qwen3-5-397b-a17b.jsonl",
+        "expected_rows": 8877
+      }
+    ]
+  },
+  "sampling": {
+    "seed": 20260926,
+    "target_rows": 2000,
+    "reference_label_field": "judge_label",
+    "eligible_reference_labels": [
+      "Safe",
+      "Unsafe"
+    ],
+    "excluded_reference_labels": [
+      "Disputed"
+    ],
+    "stratify_by": [
+      "split",
+      "judge_label",
+      "method"
+    ],
+    "base_method_value": "__base__",
+    "allocation": "Hamilton largest remainder, proportional to the eligible population",
+    "ranking": "ascending SHA-256(seed, pinned source path, one-based source line, canonical record JSON)",
+    "deduplication": "Before scoring, skip exact prompt-response duplicates after Unicode NFKC, casefold, and whitespace collapse; keep the globally lowest ranked record and backfill within the same registered stratum.",
+    "replacement": false
+  }
+}

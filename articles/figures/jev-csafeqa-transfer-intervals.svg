@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="920" viewBox="0 0 1500 920" role="img" aria-labelledby="title desc">
+<title id="title">Every student beat Jev on ranking and proper scores</title>
+<desc id="desc">Six Qwen students show positive AUROC, log-loss and Brier improvements over Jev, with every 95 percent cluster-bootstrap interval excluding zero.</desc>
+<rect x="0.0" y="0.0" width="1500.0" height="920.0" rx="0.0" fill="#F6F2E9" opacity="1"/>
+<text x="70.0" y="68.0" text-anchor="start" fill="#102A3A" font-family="Georgia, serif" font-size="42" font-weight="700">Every student beat Jev on ranking and proper scores</text>
+<text x="70.0" y="108.0" text-anchor="start" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="400">C-SafeQA · student improvement over live Jev · 95% prompt-cluster bootstrap intervals</text>
+<text x="231.0" y="252.0" text-anchor="end" fill="#102A3A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Qwen 4B + Jev</text>
+<circle cx="247.0" cy="245.0" r="7.0" fill="#5278C7" stroke="#5278C7" stroke-width="0"/>
+<text x="231.0" y="334.0" text-anchor="end" fill="#102A3A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Qwen 4B + hard</text>
+<circle cx="247.0" cy="327.0" r="7.0" fill="#7B61A8" stroke="#7B61A8" stroke-width="0"/>
+<text x="231.0" y="416.0" text-anchor="end" fill="#102A3A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Qwen 4B + hybrid</text>
+<circle cx="247.0" cy="409.0" r="7.0" fill="#169C82" stroke="#169C82" stroke-width="0"/>
+<text x="231.0" y="498.0" text-anchor="end" fill="#102A3A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Qwen 9B + Jev</text>
+<circle cx="247.0" cy="491.0" r="7.0" fill="#5278C7" stroke="#5278C7" stroke-width="0"/>
+<text x="231.0" y="580.0" text-anchor="end" fill="#102A3A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Qwen 9B + hard</text>
+<circle cx="247.0" cy="573.0" r="7.0" fill="#7B61A8" stroke="#7B61A8" stroke-width="0"/>
+<text x="231.0" y="662.0" text-anchor="end" fill="#102A3A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">Qwen 9B + hybrid</text>
+<circle cx="247.0" cy="655.0" r="7.0" fill="#169C82" stroke="#169C82" stroke-width="0"/>
+<text x="458.0" y="175.0" text-anchor="middle" fill="#102A3A" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700">AUROC gain</text>
+<line x1="283.0" y1="205.0" x2="283.0" y2="689.0" stroke="#102A3A" stroke-width="2" opacity="1"/>
+<line x1="283.0" y1="213.0" x2="283.0" y2="685.0" stroke="#D7DDD9" stroke-width="1" opacity="1"/>
+<text x="283.0" y="741.0" text-anchor="middle" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">0.000</text>
+<line x1="399.7" y1="213.0" x2="399.7" y2="685.0" stroke="#D7DDD9" stroke-width="1" opacity="1"/>
+<text x="399.7" y="741.0" text-anchor="middle" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">0.047</text>
+<line x1="516.3" y1="213.0" x2="516.3" y2="685.0" stroke="#D7DDD9" stroke-width="1" opacity="1"/>
+<text x="516.3" y="741.0" text-anchor="middle" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">0.093</text>
+<line x1="633.0" y1="213.0" x2="633.0" y2="685.0" stroke="#D7DDD9" stroke-width="1" opacity="1"/>
+<text x="633.0" y="741.0" text-anchor="middle" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">0.140</text>
+<line x1="460.8" y1="245.0" x2="583.6" y2="245.0" stroke="#5278C7" stroke-width="7" opacity="1"/>
+<line x1="460.8" y1="235.0" x2="460.8" y2="255.0" stroke="#5278C7" stroke-width="3" opacity="1"/>
+<line x1="583.6" y1="235.0" x2="583.6" y2="255.0" stroke="#5278C7" stroke-width="3" opacity="1"/>
+<circle cx="521.6" cy="245.0" r="9.0" fill="#5278C7" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="474.9" y1="327.0" x2="607.5" y2="327.0" stroke="#7B61A8" stroke-width="7" opacity="1"/>
+<line x1="474.9" y1="317.0" x2="474.9" y2="337.0" stroke="#7B61A8" stroke-width="3" opacity="1"/>
+<line x1="607.5" y1="317.0" x2="607.5" y2="337.0" stroke="#7B61A8" stroke-width="3" opacity="1"/>
+<circle cx="538.4" cy="327.0" r="9.0" fill="#7B61A8" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="471.4" y1="409.0" x2="598.0" y2="409.0" stroke="#169C82" stroke-width="7" opacity="1"/>
+<line x1="471.4" y1="399.0" x2="471.4" y2="419.0" stroke="#169C82" stroke-width="3" opacity="1"/>
+<line x1="598.0" y1="399.0" x2="598.0" y2="419.0" stroke="#169C82" stroke-width="3" opacity="1"/>
+<circle cx="535.3" cy="409.0" r="9.0" fill="#169C82" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="408.6" y1="491.0" x2="506.8" y2="491.0" stroke="#5278C7" stroke-width="7" opacity="1"/>
+<line x1="408.6" y1="481.0" x2="408.6" y2="501.0" stroke="#5278C7" stroke-width="3" opacity="1"/>
+<line x1="506.8" y1="481.0" x2="506.8" y2="501.0" stroke="#5278C7" stroke-width="3" opacity="1"/>
+<circle cx="456.1" cy="491.0" r="9.0" fill="#5278C7" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="473.7" y1="573.0" x2="595.5" y2="573.0" stroke="#7B61A8" stroke-width="7" opacity="1"/>
+<line x1="473.7" y1="563.0" x2="473.7" y2="583.0" stroke="#7B61A8" stroke-width="3" opacity="1"/>
+<line x1="595.5" y1="563.0" x2="595.5" y2="583.0" stroke="#7B61A8" stroke-width="3" opacity="1"/>
+<circle cx="532.9" cy="573.0" r="9.0" fill="#7B61A8" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="403.0" y1="655.0" x2="502.5" y2="655.0" stroke="#169C82" stroke-width="7" opacity="1"/>
+<line x1="403.0" y1="645.0" x2="403.0" y2="665.0" stroke="#169C82" stroke-width="3" opacity="1"/>
+<line x1="502.5" y1="645.0" x2="502.5" y2="665.0" stroke="#169C82" stroke-width="3" opacity="1"/>
+<circle cx="450.4" cy="655.0" r="9.0" fill="#169C82" stroke="#F6F2E9" stroke-width="3"/>
+<text x="868.0" y="175.0" text-anchor="middle" fill="#102A3A" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700">Log-loss reduction</text>
+<line x1="693.0" y1="205.0" x2="693.0" y2="689.0" stroke="#102A3A" stroke-width="2" opacity="1"/>
+<line x1="693.0" y1="213.0" x2="693.0" y2="685.0" stroke="#D7DDD9" stroke-width="1" opacity="1"/>
+<text x="693.0" y="741.0" text-anchor="middle" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">0.000</text>
+<line x1="809.7" y1="213.0" x2="809.7" y2="685.0" stroke="#D7DDD9" stroke-width="1" opacity="1"/>
+<text x="809.7" y="741.0" text-anchor="middle" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">0.043</text>
+<line x1="926.3" y1="213.0" x2="926.3" y2="685.0" stroke="#D7DDD9" stroke-width="1" opacity="1"/>
+<text x="926.3" y="741.0" text-anchor="middle" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">0.087</text>
+<line x1="1043.0" y1="213.0" x2="1043.0" y2="685.0" stroke="#D7DDD9" stroke-width="1" opacity="1"/>
+<text x="1043.0" y="741.0" text-anchor="middle" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">0.130</text>
+<line x1="807.8" y1="245.0" x2="969.8" y2="245.0" stroke="#5278C7" stroke-width="7" opacity="1"/>
+<line x1="807.8" y1="235.0" x2="807.8" y2="255.0" stroke="#5278C7" stroke-width="3" opacity="1"/>
+<line x1="969.8" y1="235.0" x2="969.8" y2="255.0" stroke="#5278C7" stroke-width="3" opacity="1"/>
+<circle cx="888.5" cy="245.0" r="9.0" fill="#5278C7" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="842.3" y1="327.0" x2="1047.6" y2="327.0" stroke="#7B61A8" stroke-width="7" opacity="1"/>
+<line x1="842.3" y1="317.0" x2="842.3" y2="337.0" stroke="#7B61A8" stroke-width="3" opacity="1"/>
+<line x1="1047.6" y1="317.0" x2="1047.6" y2="337.0" stroke="#7B61A8" stroke-width="3" opacity="1"/>
+<circle cx="945.5" cy="327.0" r="9.0" fill="#7B61A8" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="844.4" y1="409.0" x2="1014.1" y2="409.0" stroke="#169C82" stroke-width="7" opacity="1"/>
+<line x1="844.4" y1="399.0" x2="844.4" y2="419.0" stroke="#169C82" stroke-width="3" opacity="1"/>
+<line x1="1014.1" y1="399.0" x2="1014.1" y2="419.0" stroke="#169C82" stroke-width="3" opacity="1"/>
+<circle cx="930.8" cy="409.0" r="9.0" fill="#169C82" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="806.7" y1="491.0" x2="900.8" y2="491.0" stroke="#5278C7" stroke-width="7" opacity="1"/>
+<line x1="806.7" y1="481.0" x2="806.7" y2="501.0" stroke="#5278C7" stroke-width="3" opacity="1"/>
+<line x1="900.8" y1="481.0" x2="900.8" y2="501.0" stroke="#5278C7" stroke-width="3" opacity="1"/>
+<circle cx="853.6" cy="491.0" r="9.0" fill="#5278C7" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="885.6" y1="573.0" x2="994.5" y2="573.0" stroke="#7B61A8" stroke-width="7" opacity="1"/>
+<line x1="885.6" y1="563.0" x2="885.6" y2="583.0" stroke="#7B61A8" stroke-width="3" opacity="1"/>
+<line x1="994.5" y1="563.0" x2="994.5" y2="583.0" stroke="#7B61A8" stroke-width="3" opacity="1"/>
+<circle cx="940.4" cy="573.0" r="9.0" fill="#7B61A8" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="797.9" y1="655.0" x2="896.3" y2="655.0" stroke="#169C82" stroke-width="7" opacity="1"/>
+<line x1="797.9" y1="645.0" x2="797.9" y2="665.0" stroke="#169C82" stroke-width="3" opacity="1"/>
+<line x1="896.3" y1="645.0" x2="896.3" y2="665.0" stroke="#169C82" stroke-width="3" opacity="1"/>
+<circle cx="846.0" cy="655.0" r="9.0" fill="#169C82" stroke="#F6F2E9" stroke-width="3"/>
+<text x="1278.0" y="175.0" text-anchor="middle" fill="#102A3A" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700">Brier reduction</text>
+<line x1="1103.0" y1="205.0" x2="1103.0" y2="689.0" stroke="#102A3A" stroke-width="2" opacity="1"/>
+<line x1="1103.0" y1="213.0" x2="1103.0" y2="685.0" stroke="#D7DDD9" stroke-width="1" opacity="1"/>
+<text x="1103.0" y="741.0" text-anchor="middle" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">0.000</text>
+<line x1="1219.7" y1="213.0" x2="1219.7" y2="685.0" stroke="#D7DDD9" stroke-width="1" opacity="1"/>
+<text x="1219.7" y="741.0" text-anchor="middle" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">0.012</text>
+<line x1="1336.3" y1="213.0" x2="1336.3" y2="685.0" stroke="#D7DDD9" stroke-width="1" opacity="1"/>
+<text x="1336.3" y="741.0" text-anchor="middle" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">0.023</text>
+<line x1="1453.0" y1="213.0" x2="1453.0" y2="685.0" stroke="#D7DDD9" stroke-width="1" opacity="1"/>
+<text x="1453.0" y="741.0" text-anchor="middle" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">0.035</text>
+<line x1="1206.3" y1="245.0" x2="1372.1" y2="245.0" stroke="#5278C7" stroke-width="7" opacity="1"/>
+<line x1="1206.3" y1="235.0" x2="1206.3" y2="255.0" stroke="#5278C7" stroke-width="3" opacity="1"/>
+<line x1="1372.1" y1="235.0" x2="1372.1" y2="255.0" stroke="#5278C7" stroke-width="3" opacity="1"/>
+<circle cx="1292.0" cy="245.0" r="9.0" fill="#5278C7" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="1151.1" y1="327.0" x2="1393.1" y2="327.0" stroke="#7B61A8" stroke-width="7" opacity="1"/>
+<line x1="1151.1" y1="317.0" x2="1151.1" y2="337.0" stroke="#7B61A8" stroke-width="3" opacity="1"/>
+<line x1="1393.1" y1="317.0" x2="1393.1" y2="337.0" stroke="#7B61A8" stroke-width="3" opacity="1"/>
+<circle cx="1273.9" cy="327.0" r="9.0" fill="#7B61A8" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="1224.4" y1="409.0" x2="1417.8" y2="409.0" stroke="#169C82" stroke-width="7" opacity="1"/>
+<line x1="1224.4" y1="399.0" x2="1224.4" y2="419.0" stroke="#169C82" stroke-width="3" opacity="1"/>
+<line x1="1417.8" y1="399.0" x2="1417.8" y2="419.0" stroke="#169C82" stroke-width="3" opacity="1"/>
+<circle cx="1321.9" cy="409.0" r="9.0" fill="#169C82" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="1161.1" y1="491.0" x2="1256.3" y2="491.0" stroke="#5278C7" stroke-width="7" opacity="1"/>
+<line x1="1161.1" y1="481.0" x2="1161.1" y2="501.0" stroke="#5278C7" stroke-width="3" opacity="1"/>
+<line x1="1256.3" y1="481.0" x2="1256.3" y2="501.0" stroke="#5278C7" stroke-width="3" opacity="1"/>
+<circle cx="1209.6" cy="491.0" r="9.0" fill="#5278C7" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="1235.7" y1="573.0" x2="1358.7" y2="573.0" stroke="#7B61A8" stroke-width="7" opacity="1"/>
+<line x1="1235.7" y1="563.0" x2="1235.7" y2="583.0" stroke="#7B61A8" stroke-width="3" opacity="1"/>
+<line x1="1358.7" y1="563.0" x2="1358.7" y2="583.0" stroke="#7B61A8" stroke-width="3" opacity="1"/>
+<circle cx="1296.7" cy="573.0" r="9.0" fill="#7B61A8" stroke="#F6F2E9" stroke-width="3"/>
+<line x1="1151.2" y1="655.0" x2="1254.2" y2="655.0" stroke="#169C82" stroke-width="7" opacity="1"/>
+<line x1="1151.2" y1="645.0" x2="1151.2" y2="665.0" stroke="#169C82" stroke-width="3" opacity="1"/>
+<line x1="1254.2" y1="645.0" x2="1254.2" y2="665.0" stroke="#169C82" stroke-width="3" opacity="1"/>
+<circle cx="1202.4" cy="655.0" r="9.0" fill="#169C82" stroke="#F6F2E9" stroke-width="3"/>
+<circle cx="430.0" cy="850.0" r="8.0" fill="#5278C7" stroke="#5278C7" stroke-width="0"/>
+<text x="450.0" y="857.0" text-anchor="start" fill="#102A3A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Jev soft targets</text>
+<circle cx="725.0" cy="850.0" r="8.0" fill="#7B61A8" stroke="#7B61A8" stroke-width="0"/>
+<text x="745.0" y="857.0" text-anchor="start" fill="#102A3A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">official hard labels</text>
+<circle cx="1035.0" cy="850.0" r="8.0" fill="#169C82" stroke="#169C82" stroke-width="0"/>
+<text x="1055.0" y="857.0" text-anchor="start" fill="#102A3A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">50/50 hybrid</text>
+<text x="1440.0" y="900.0" text-anchor="end" fill="#667681" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400">Right is better; zero means no improvement over Jev.</text>
+</svg>

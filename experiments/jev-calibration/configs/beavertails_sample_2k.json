@@ -1,0 +1,31 @@
+{
+  "protocol_id": "beavertails-external-eval-sample-v1",
+  "dataset": {
+    "repo_id": "PKU-Alignment/BeaverTails",
+    "revision": "8401fe609d288129cc684a9b3be6a93e41cfe678",
+    "license": "CC-BY-NC-4.0",
+    "split": "30k_test",
+    "path": "round0/30k/test.jsonl.gz",
+    "url": "https://huggingface.co/datasets/PKU-Alignment/BeaverTails/resolve/8401fe609d288129cc684a9b3be6a93e41cfe678/round0/30k/test.jsonl.gz",
+    "expected_bytes": 545222,
+    "expected_sha256": "0ce619bf4c421c12e578445b1fb8d1aedf4bf05ca3eb985f4ddf498a784769ff",
+    "expected_rows": 3021,
+    "expected_unique_prompt_response_pairs": 3019
+  },
+  "sampling": {
+    "seed": 20260926,
+    "target_rows": 2000,
+    "deduplicate_by": [
+      "prompt",
+      "response"
+    ],
+    "duplicate_policy": "keep earliest one-based source line",
+    "stratify_by": [
+      "unsafe_label",
+      "harm_category_signature"
+    ],
+    "allocation": "Hamilton largest remainder, proportional to the deduplicated population",
+    "ranking": "ascending SHA-256(seed, pinned source path, one-based source line, canonical record JSON)",
+    "replacement": false
+  }
+}
